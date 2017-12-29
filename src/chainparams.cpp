@@ -266,7 +266,7 @@ public:
         nEquihashN = N;
         nEquihashK = K;
 
-        genesis = CreateGenesisBlock(1296688602, 414098458, 0x1d00ffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1504946610, 789571, 0x2000000f, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash(consensus);
         assert(consensus.hashGenesisBlock == uint256S("0x00000258baee7750addb491fa64387402da664e234ff77e7b8e3897aed4700cc"));
         assert(genesis.hashMerkleRoot == uint256S("0xab389382081431342fdd6a946fa28faf6e1846f8cfc92fbff3d3c1df11d46874"));
